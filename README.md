@@ -17,3 +17,16 @@ prod-cleanup :2403 112414:I:   -x <exclude>    shell pattern of files to exclude
 prod-cleanup :2403 112414:I:   dirN            Nth directory to scan in
 prod-cleanup :2403 112414:P:Check arguments.
 ```
+** Example: **
+
+Compress:
+
+```
+perl prod-cleanup.pl -z 0 -p *.log_* /var/log
+```
+
+Deletion:
+
+```
+perl prod-cleanup.pl -d 2 -p *.xz*
+```
