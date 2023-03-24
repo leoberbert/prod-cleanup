@@ -28,5 +28,5 @@ perl prod-cleanup.pl -z 0 -p *.log_* /var/log
 Deletion:
 
 ```
-perl prod-cleanup.pl -d 2 -p *.xz*
+perl prod-cleanup.pl -d 2 -p *.xz* /var/log
 ```
